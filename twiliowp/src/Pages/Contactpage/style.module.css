@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+  }
+  
+  label {
+    margin-bottom: 10px;
+  }
+  
+  input {
+    padding: 8px;
+    margin-bottom: 15px;
+  }
+  
+  button {
+    width: fit-content;
+    padding: 10px;
+    border-radius: 7px;
+    background-color: forestgreen;
+    font-size: 24px;
+    font-weight: 400;
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #10b351;
+  }
